@@ -1,0 +1,23 @@
+# Reflections on the toycity-part3 -project #
+
+1.How long did you spend working on this project?
+
+	I spent couple of nights working, maybe 3-4h
+
+2.What was the most rewarding challenge you conquered?
+
+	At all getting the project to work and also the extra features
+
+3.What two additional features did you build? Why?
+
+	I added the ability to show the whole customer list and
+	a way to show time of purchases. I believe these could be 
+	usefull functions in retail.
+
+4.Where do you still have room to grow?
+
+	Yes, I find it extremely hard to start these projects unless there is 
+	enough help to get started. All in all, I need a lot more practise
+	in Ruby. And coding in general.
+
+
