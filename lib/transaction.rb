@@ -1,16 +1,17 @@
 class Transaction
-  attr_reader :id, :product, :customer, :purchased
+  attr_reader :id, :product, :customer, :purchased, :time
 
   @@transactions = []
   @@id = 1
 
-  def initialize(customer, product, purchased=true)
+  def initialize(customer, product, purchased=true, time = Time.now)
     @id = @@id
     @customer = customer
     @product = product
     @purchased = purchased
     @@transactions << self
     @@id += 1
+    @time = time
     purchased ? product.purchased : product.returned
   end
 

@@ -54,7 +54,8 @@ require_relative "lib/transaction"
  puts transaction.product == nanoblock # Should return true
  puts transaction.product == firehouse # Should return false
  puts transaction.customer == walter # Should return true
-
+#Show the time of purchase
+# puts transaction.time
  puts nanoblock.stock # Should return 11
 
 # PURCHASES
@@ -68,5 +69,6 @@ require_relative "lib/transaction"
 
 # walter.purchase(firehouse)
 # Should return OutOfStockError: 'LEGO Firehouse Headquarter' is out of stock.
- 
- puts Customer.list_customers
+
+#List the current customers  
+# puts Customer.list_customers
